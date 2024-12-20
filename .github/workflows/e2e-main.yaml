@@ -114,7 +114,7 @@ jobs:
 
       - name: Execute pnpm in Bootc Extension
         working-directory: ./podman-desktop-extension-bootc
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Run All E2E tests
         working-directory: ./podman-desktop-extension-bootc
