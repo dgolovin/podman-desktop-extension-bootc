@@ -265,7 +265,7 @@ importers:
         specifier: ^1.49.1
         version: 1.49.1
       '@podman-desktop/tests-playwright':
-        specifier: 1.16.0-202412191526-af98dd0c20c
+        specifier: next
         version: 1.16.0-202412191526-af98dd0c20c
       '@types/node':
         specifier: ^20
